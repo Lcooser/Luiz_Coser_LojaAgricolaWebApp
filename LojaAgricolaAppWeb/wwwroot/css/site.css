@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.navbar {
+   
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item.show .nav-link {
+    background-color: #1861ac; 
+}
+
+
+
+@media (max-width: 767px) {
+    .navbar-expand-sm .navbar-toggler-icon {
+        color: #fff;
+    }
+}
+
+

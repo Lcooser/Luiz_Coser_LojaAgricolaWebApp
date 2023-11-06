@@ -1,0 +1,49 @@
+﻿/* Estilização do título da página */
+.privacy-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #000; /* Cor do título em preto */
+}
+
+/* Estilização das seções */
+.privacy-content {
+    background-color: #fff; /* Fundo branco para as seções */
+    border: 1px solid #000; /* Borda preta */
+    border-radius: 5px; /* Borda levemente arredondada */
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Estilização dos títulos de seção */
+.section-title {
+    font-size: 1.5rem;
+    color: #000; /* Cor dos títulos de seção em preto */
+    margin-top: 10px;
+}
+
+/* Estilização dos parágrafos de seção */
+.subsection-content {
+    color: #333; /* Texto ligeiramente mais escuro que preto */
+}
+
+/* Estilização da lista de itens com ícones */
+.bulleted-list {
+    list-style-type: disc; /* Estilo de lista com marcadores em forma de disco */
+    padding-left: 20px;
+}
+
+/* Estilização dos links de contato */
+.contact-link {
+    color: #000; /* Cor dos links de contato em preto */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+/* Estilização do rodapé da página */
+.footer {
+    text-align: center;
+    background-color: #fff; /* Fundo branco para o rodapé */
+    padding: 10px;
+    color: #000; /* Cor do texto do rodapé em preto */
+}
