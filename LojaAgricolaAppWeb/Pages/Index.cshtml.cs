@@ -17,9 +17,9 @@ namespace LojaAgricolaAppWeb.Pages
                 new Maquinas
                 {
                     MaquinaId = 1,
-                    Nome = "Trator Azul",
-                    Descricao = "Trator azul potente no campo verde.",
-                    ImagemUri = "images/MaquinaAgricolaTratorAzul.png",
+                    Nome = "Trator",
+                    Descricao = "Trator potente no campo verde.",
+                    ImagemUri = "images/imageTratorVerde.jpg",
                     DataCadastro = DateTime.Now,
                     Preco = 100000.00,
                 },
@@ -27,7 +27,7 @@ namespace LojaAgricolaAppWeb.Pages
                 new Maquinas
                 {
                     MaquinaId = 2,
-                    Nome = "Máquina agrícola laranja",
+                    Nome = "Máquina agrícola",
                     Descricao = "Uma máquina agrícola laranja se destaca no campo com sua cor vibrante.",
                     ImagemUri = "images/MaquinaAgricolaLaranja.png",
                     DataCadastro = DateTime.Now,
@@ -47,7 +47,7 @@ namespace LojaAgricolaAppWeb.Pages
                 new Maquinas
                 {
                     MaquinaId = 4,
-                    Nome = "Plantadeira Laranja",
+                    Nome = "Plantadeira",
                     Descricao = "A plantadeira laranja é uma máquina agrícola essencial, com seu brilho vibrante e capacidade de semear com precisão, tornando-a uma presença marcante no campo.",
                     ImagemUri = "images/MaquinaAgricolaPlantadeiraLaranja.png",
                     DataCadastro = DateTime.Now,

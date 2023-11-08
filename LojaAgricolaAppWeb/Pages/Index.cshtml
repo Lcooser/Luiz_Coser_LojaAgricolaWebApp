@@ -3,21 +3,22 @@
    
 <link rel="stylesheet" href="~/css/index.css" />
 
-<div class="row justify-content-md-ceter">
-    @foreach (var item in Model.ListaMaquina )
+<img class="img-homeTrator" src="~/images/imageTratorHomePage.jpg" />
+
+<div class="row justify-content-md-center">
+    @foreach (var item in Model.ListaMaquina)
     {
         <div class="card col-3 m-3">
             <img src="@item.ImagemUri" class="p-3" style="border-radius: 25px" />
             <div class="card-body">
                 <h5 class="card-title">@item.Nome</h5>
                 <p class="card-text">@item.Descricao</p>
-                <p class="card-text">Preco:R$ @item.Preco</p>
+                <p class="card-text">Preco: R$ @item.Preco</p> <!-- Correção no preço -->
                 <a class="btn btn-primary">Ver mais</a>
             </div>
         </div>
-
     }
-    
 </div>
+
 
 

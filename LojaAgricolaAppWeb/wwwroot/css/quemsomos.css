@@ -1,39 +1,33 @@
-﻿/* Estilização global */
-body {
-    background-color: #fff; /* Fundo branco */
-    color: #000; /* Texto preto */
-    font-family: Arial, sans-serif;
-}
-
-/* Estilização do cabeçalho */
-.header {
-    background-color: #000; /* Fundo preto para o cabeçalho */
-    color: #fff; /* Texto branco */
-    padding: 20px;
-    text-align: center;
-}
-
-
+﻿/* Estilo para a página "Quem somos" */
 .company-info {
     margin: 20px;
-    padding: 20px;
-    border: 1px solid #000; 
+}
+
+.company-name {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.company-section {
+    margin: 20px 0;
 }
 
 .section-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
 }
-
 
 .section-content {
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
+.company-footer {
+    margin: 20px 0;
+}
 
 .footer {
-    background-color: #000;
-    color: #fff; 
+    background-color: green;
+    color: white;
     text-align: center;
     padding: 10px;
 }
